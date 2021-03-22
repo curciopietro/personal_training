@@ -8,6 +8,16 @@ export default function Home() {
           <button>useReducer Basic</button>
         </Link>
       </li>
+      <li>
+        <Link to="/useContext" className="linkstyle">
+          <button>useContext Basic</button>
+        </Link>
+      </li>
+      <li>
+        <Link to="/redux" className="linkstyle">
+          <button>Redux</button>
+        </Link>
+      </li>
     </ul>
   );
 }

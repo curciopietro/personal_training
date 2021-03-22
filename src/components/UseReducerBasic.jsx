@@ -1,4 +1,3 @@
-import "./UseReducerBasic.css";
 import { useState, useReducer } from "react";
 import styled from "styled-components";
 
@@ -103,7 +102,7 @@ export default function UseReducerBasic() {
     dispatch({ type: "CLOSE_MODAL" });
   };
   return (
-    <section className="useReducer">
+    <section className="page">
       <h2>Esercitazione con useReducer</h2>
 
       {state.isModalOpen && (
