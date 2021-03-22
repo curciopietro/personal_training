@@ -1,0 +1,16 @@
+.header {
+  width: 100vw;
+  height: 72px;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 2px 4px black;
+}
+
+.header h1 {
+  margin-left: 15px;
+  font-size: 30px;
+  font-family: monospace;
+  color: white;
+  text-underline-offset: none;
+}
