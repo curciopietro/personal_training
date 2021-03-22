@@ -116,7 +116,7 @@ export default function UseReducerBasic() {
           value={name}
           onChange={(e) => setName(e.target.value)}
         ></input>
-        <button type="submit">Submit</button>
+        <button type="submit">Add Name</button>
       </form>
 
       {state.people.map((person) => {
